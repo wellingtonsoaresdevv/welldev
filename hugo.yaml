@@ -1,0 +1,143 @@
+baseURL: "https://uictorius.github.io/"
+languageCode: "en-us"
+title: "uictorius"
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+mainsections: ["posts", "papermod"]
+
+caches:
+  images:
+    dir: :cacheDir/images
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 5
+
+languages:
+  en:
+    languageName: "English"
+    weight: 2
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  title: "uictorius – Random Notes & Experiments"
+  description: "Just some casual notes and experiments on tech, software, and firmware that I find interesting."
+  keywords:
+    [
+      "tech",
+      "firmware",
+      "Android",
+      "Allwinner",
+      "Rockchip",
+      "software experiments",
+      "programming",
+      "reverse engineering",
+      "hardware hacking",
+      "Linux",
+      "embedded systems",
+      "electronics",
+      "software reverse engineering",
+      "system internals",
+    ]
+
+  canonicalURL: "https://uictorius.github.io/"
+  author: "uictorius"
+  ogImage: "/images/og-default.png"
+  ogType: "website"
+
+  defaultTheme: auto
+  ShowShareButtons: false
+  ShowReadingTime: false
+  ShowToc: true
+  tocopen: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowPostNavLinks: true
+  displayFullLangName: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+
+  analytics:
+    google:
+      SiteVerificationTag: "IyTDrJTrxUjnN-bdvU937yXL38dM128Rt5DlWBLF_is"
+
+  assets:
+    disableHLJS: true
+  HighlightStyle: "atom-one-dark"
+
+  homeInfoParams:
+    Title: "Hey there! 👋"
+    Content: "Just some notes and experiments on stuff I find interesting. Stick around!"
+
+  socialIcons:
+    - name: github
+      title: "ucitorius on Github"
+      url: "https://github.com/uictorius/"
+    - name: x
+      title: "uictorius on x.com"
+      url: "https://x.com/uictorius/"
+    - name: substack
+      title: "uictorius on Substack"
+      url: "https://uictorius.substack.com/"
+    - name: youtube
+      title: "uictorius on Youtube"
+      url: "https://www.youtube.com/@uictorius"
+    - name: discord
+      title: "uictorius on Discord"
+      url: "https://discord.com/users/1354479189738262669"
+
+  editPost:
+    URL: "https://github.com/uictorius/uictorius.github.io/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    noClasses: false
+    style: base16-snazzy
+
+services:
+  instagram:
+    disableInlineCSS: true
+  x:
+    disableInlineCSS: true
