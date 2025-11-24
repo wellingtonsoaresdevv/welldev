@@ -25,7 +25,7 @@ pagination:
 
 languages:
   en:
-    languageName: "Portuguese"
+    languageName: "English"
     weight: 2
     taxonomies:
       category: categories
