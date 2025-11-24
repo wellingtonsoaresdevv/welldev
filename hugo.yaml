@@ -1,6 +1,6 @@
 baseURL: "https://uictorius.github.io/"
 languageCode: "en-us"
-title: "uictorius"
+title: "Wellington"
 theme: ["PaperMod"]
 
 enableInlineShortcodes: true
@@ -51,7 +51,7 @@ outputs:
 
 params:
   env: production
-  title: "uictorius – Random Notes & Experiments"
+  title: "Wellington – Random Notes & Experiments"
   description: "Just some casual notes and experiments on tech, software, and firmware that I find interesting."
   keywords:
     [
@@ -71,8 +71,8 @@ params:
       "system internals",
     ]
 
-  canonicalURL: "https://uictorius.github.io/"
-  author: "uictorius"
+  canonicalURL: "https://wellingtonsoaresdevv.github.io/welldev/"
+  author: "Wellington"
   ogImage: "/images/og-default.png"
   ogType: "website"
 
@@ -106,14 +106,14 @@ params:
 
   socialIcons:
     - name: github
-      title: "ucitorius on Github"
+      title: "Wellington on Github"
       url: "https://github.com/uictorius/"
     - name: x
-      title: "uictorius on x.com"
+      title: "Wellington on x.com"
       url: "https://x.com/uictorius/"
     - name: substack
-      title: "uictorius on Substack"
-      url: "https://uictorius.substack.com/"
+      title: "Wellington on Substack"
+      url: "https://wellingtonsoaresdevv.substack.com/"
     - name: youtube
       title: "uictorius on Youtube"
       url: "https://www.youtube.com/@uictorius"
